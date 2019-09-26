@@ -1088,6 +1088,40 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "CodeKata.BusinessEnt/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/CodeKata.BusinessEnt.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeKata.BusinessEnt.dll": {}
+        }
+      },
+      "CodeKata.BusinessImp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "CodeKata.BusinessEnt": "1.0.0",
+          "CodeKata.Prov": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CodeKata.BusinessImp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeKata.BusinessImp.dll": {}
+        }
+      },
+      "CodeKata.Prov/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/CodeKata.Prov.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeKata.Prov.dll": {}
+        }
       }
     }
   },
@@ -4050,10 +4084,26 @@
         "xunit.runner.visualstudio.2.4.1.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "CodeKata.BusinessEnt/1.0.0": {
+      "type": "project",
+      "path": "../CodeKata.BusinessIntities/CodeKata.BusinessEnt.csproj",
+      "msbuildProject": "../CodeKata.BusinessIntities/CodeKata.BusinessEnt.csproj"
+    },
+    "CodeKata.BusinessImp/1.0.0": {
+      "type": "project",
+      "path": "../CodeKata.BusinessService/CodeKata.BusinessImp.csproj",
+      "msbuildProject": "../CodeKata.BusinessService/CodeKata.BusinessImp.csproj"
+    },
+    "CodeKata.Prov/1.0.0": {
+      "type": "project",
+      "path": "../CodeKata.Providers/CodeKata.Prov.csproj",
+      "msbuildProject": "../CodeKata.Providers/CodeKata.Prov.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "CodeKata.BusinessImp >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.3.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "xunit >= 2.4.1",
@@ -4088,7 +4138,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\GitHub\\CodeKata\\CodeKata.BusinessService\\CodeKata.BusinessImp.csproj": {
+              "projectPath": "C:\\GitHub\\CodeKata\\CodeKata.BusinessService\\CodeKata.BusinessImp.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

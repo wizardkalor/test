@@ -15,10 +15,17 @@ namespace CodeKata.BusinessEnt
         //Default comparer
         public Int32 CompareTo(Output compareOut)
         {
-//            if (compareOut == null)
-//                return 1;
-//            else
-                return this.Distance.CompareTo(compareOut.Distance);
+            //            if (compareOut == null)
+            //                return 1;
+            //            else
+            return this.Distance.CompareTo(compareOut.Distance);
+        }
+
+        public Output(string name, int distance, int mph)
+        {
+            Name = name;
+            Distance = distance;
+            MPH = mph;
         }
     }
 }

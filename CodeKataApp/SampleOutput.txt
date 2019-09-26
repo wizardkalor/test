@@ -1,0 +1,4 @@
+Mathew:  325 miles @ 56 mph
+Carlos:  115 miles @ 36 mph
+Michael:  93 miles @ 49 mph
+Micah:  78 miles @ 98 mph
