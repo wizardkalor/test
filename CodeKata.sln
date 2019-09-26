@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeKata.Application", "CodeKataApp\CodeKata.Application.csproj", "{9BC12289-B837-4FE3-9865-5AF58C597B9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{179F159A-5A0E-400F-8634-4190284EEBA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{7313F69A-15BB-4E4E-90DF-29877F8E76A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeKata.BusinessImp", "CodeKata.BusinessService\CodeKata.BusinessImp.csproj", "{3B9A26AA-A667-4977-9690-283E43BDB7BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeKata.BusinessEnt", "CodeKata.BusinessIntities\CodeKata.BusinessEnt.csproj", "{66511637-241E-41D4-9FD7-A221CB0352DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeKata.Prov", "CodeKata.Providers\CodeKata.Prov.csproj", "{3BBF4B64-FA6F-416E-95C8-4FE0FCC8F6C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeKata.UnitTests", "CodeKata.UnitTests\CodeKata.UnitTests.csproj", "{09423A6F-2294-49B5-A57B-7AD655D92439}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BC12289-B837-4FE3-9865-5AF58C597B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC12289-B837-4FE3-9865-5AF58C597B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC12289-B837-4FE3-9865-5AF58C597B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC12289-B837-4FE3-9865-5AF58C597B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9A26AA-A667-4977-9690-283E43BDB7BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9A26AA-A667-4977-9690-283E43BDB7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9A26AA-A667-4977-9690-283E43BDB7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9A26AA-A667-4977-9690-283E43BDB7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66511637-241E-41D4-9FD7-A221CB0352DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66511637-241E-41D4-9FD7-A221CB0352DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66511637-241E-41D4-9FD7-A221CB0352DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66511637-241E-41D4-9FD7-A221CB0352DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBF4B64-FA6F-416E-95C8-4FE0FCC8F6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBF4B64-FA6F-416E-95C8-4FE0FCC8F6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBF4B64-FA6F-416E-95C8-4FE0FCC8F6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBF4B64-FA6F-416E-95C8-4FE0FCC8F6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09423A6F-2294-49B5-A57B-7AD655D92439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09423A6F-2294-49B5-A57B-7AD655D92439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09423A6F-2294-49B5-A57B-7AD655D92439}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BC12289-B837-4FE3-9865-5AF58C597B9F} = {179F159A-5A0E-400F-8634-4190284EEBA3}
+		{3B9A26AA-A667-4977-9690-283E43BDB7BF} = {7313F69A-15BB-4E4E-90DF-29877F8E76A0}
+		{66511637-241E-41D4-9FD7-A221CB0352DB} = {7313F69A-15BB-4E4E-90DF-29877F8E76A0}
+		{3BBF4B64-FA6F-416E-95C8-4FE0FCC8F6C3} = {7313F69A-15BB-4E4E-90DF-29877F8E76A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {167C11DA-F1CB-479E-9084-92E0D0F8A731}
+	EndGlobalSection
+EndGlobal

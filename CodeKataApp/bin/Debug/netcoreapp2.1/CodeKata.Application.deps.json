@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "CodeKata.Application/1.0.0": {
+        "dependencies": {
+          "CodeKata.BusinessEnt": "1.0.0",
+          "CodeKata.BusinessImp": "1.0.0",
+          "CodeKata.Prov": "1.0.0"
+        },
+        "runtime": {
+          "CodeKata.Application.dll": {}
+        }
+      },
+      "CodeKata.BusinessEnt/1.0.0": {
+        "runtime": {
+          "CodeKata.BusinessEnt.dll": {}
+        }
+      },
+      "CodeKata.BusinessImp/1.0.0": {
+        "dependencies": {
+          "CodeKata.BusinessEnt": "1.0.0",
+          "CodeKata.Prov": "1.0.0"
+        },
+        "runtime": {
+          "CodeKata.BusinessImp.dll": {}
+        }
+      },
+      "CodeKata.Prov/1.0.0": {
+        "runtime": {
+          "CodeKata.Prov.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodeKata.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CodeKata.BusinessEnt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CodeKata.BusinessImp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CodeKata.Prov/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

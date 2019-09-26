@@ -1,0 +1,12 @@
+Driver Carlos
+Driver Michael
+Driver Rachel
+Driver Mathew
+Driver Kevin
+Driver Micah
+Trip Carlos 08:50 12:00 115.4
+Trip Michael 06:22 08:15 92.7
+Trip Mathew 09:32 15:21 324.7
+Trip Micah 06:42 07:30 35.6
+Trip Micah 15:12 16:00 42.5
+Trip Kevin 14:10 15:30 7.2
