@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeKata.BusinessIntities\CodeKata.BusinessEnt.csproj" />
+    <ProjectReference Include="..\CodeKata.BusinessService\CodeKata.BusinessImp.csproj" />
+    <ProjectReference Include="..\CodeKata.Providers\CodeKata.Prov.csproj" />
+  </ItemGroup>
+
+</Project>

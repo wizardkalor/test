@@ -1,0 +1,9 @@
+C:\GitHub\CodeKata\CodeKata.Providers\bin\Debug\netcoreapp2.1\CodeKata.Prov.deps.json
+C:\GitHub\CodeKata\CodeKata.Providers\bin\Debug\netcoreapp2.1\CodeKata.Prov.dll
+C:\GitHub\CodeKata\CodeKata.Providers\bin\Debug\netcoreapp2.1\CodeKata.Prov.pdb
+C:\GitHub\CodeKata\CodeKata.Providers\obj\Debug\netcoreapp2.1\CodeKata.Prov.csprojAssemblyReference.cache
+C:\GitHub\CodeKata\CodeKata.Providers\obj\Debug\netcoreapp2.1\CodeKata.Prov.csproj.CoreCompileInputs.cache
+C:\GitHub\CodeKata\CodeKata.Providers\obj\Debug\netcoreapp2.1\CodeKata.Prov.AssemblyInfoInputs.cache
+C:\GitHub\CodeKata\CodeKata.Providers\obj\Debug\netcoreapp2.1\CodeKata.Prov.AssemblyInfo.cs
+C:\GitHub\CodeKata\CodeKata.Providers\obj\Debug\netcoreapp2.1\CodeKata.Prov.dll
+C:\GitHub\CodeKata\CodeKata.Providers\obj\Debug\netcoreapp2.1\CodeKata.Prov.pdb

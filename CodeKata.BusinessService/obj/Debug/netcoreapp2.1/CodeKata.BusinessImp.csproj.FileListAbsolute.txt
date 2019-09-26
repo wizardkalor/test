@@ -1,0 +1,14 @@
+C:\GitHub\CodeKata\CodeKata.BusinessService\bin\Debug\netcoreapp2.1\CodeKata.BusinessImp.deps.json
+C:\GitHub\CodeKata\CodeKata.BusinessService\bin\Debug\netcoreapp2.1\CodeKata.BusinessImp.dll
+C:\GitHub\CodeKata\CodeKata.BusinessService\bin\Debug\netcoreapp2.1\CodeKata.BusinessImp.pdb
+C:\GitHub\CodeKata\CodeKata.BusinessService\bin\Debug\netcoreapp2.1\CodeKata.BusinessEnt.dll
+C:\GitHub\CodeKata\CodeKata.BusinessService\bin\Debug\netcoreapp2.1\CodeKata.Prov.dll
+C:\GitHub\CodeKata\CodeKata.BusinessService\bin\Debug\netcoreapp2.1\CodeKata.BusinessEnt.pdb
+C:\GitHub\CodeKata\CodeKata.BusinessService\bin\Debug\netcoreapp2.1\CodeKata.Prov.pdb
+C:\GitHub\CodeKata\CodeKata.BusinessService\obj\Debug\netcoreapp2.1\CodeKata.BusinessImp.csprojAssemblyReference.cache
+C:\GitHub\CodeKata\CodeKata.BusinessService\obj\Debug\netcoreapp2.1\CodeKata.BusinessImp.csproj.CoreCompileInputs.cache
+C:\GitHub\CodeKata\CodeKata.BusinessService\obj\Debug\netcoreapp2.1\CodeKata.BusinessImp.AssemblyInfoInputs.cache
+C:\GitHub\CodeKata\CodeKata.BusinessService\obj\Debug\netcoreapp2.1\CodeKata.BusinessImp.AssemblyInfo.cs
+C:\GitHub\CodeKata\CodeKata.BusinessService\obj\Debug\netcoreapp2.1\CodeKata.BusinessImp.csproj.CopyComplete
+C:\GitHub\CodeKata\CodeKata.BusinessService\obj\Debug\netcoreapp2.1\CodeKata.BusinessImp.dll
+C:\GitHub\CodeKata\CodeKata.BusinessService\obj\Debug\netcoreapp2.1\CodeKata.BusinessImp.pdb

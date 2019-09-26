@@ -1,0 +1,228 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GitHub\\CodeKata\\CodeKataApp\\CodeKata.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\GitHub\\CodeKata\\CodeKata.BusinessIntities\\CodeKata.BusinessEnt.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\CodeKata\\CodeKata.BusinessIntities\\CodeKata.BusinessEnt.csproj",
+        "projectName": "CodeKata.BusinessEnt",
+        "projectPath": "C:\\GitHub\\CodeKata\\CodeKata.BusinessIntities\\CodeKata.BusinessEnt.csproj",
+        "packagesPath": "C:\\Users\\allenj\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\CodeKata\\CodeKata.BusinessIntities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\allenj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\GitHub\\CodeKata\\CodeKata.BusinessService\\CodeKata.BusinessImp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\CodeKata\\CodeKata.BusinessService\\CodeKata.BusinessImp.csproj",
+        "projectName": "CodeKata.BusinessImp",
+        "projectPath": "C:\\GitHub\\CodeKata\\CodeKata.BusinessService\\CodeKata.BusinessImp.csproj",
+        "packagesPath": "C:\\Users\\allenj\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\CodeKata\\CodeKata.BusinessService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\allenj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\GitHub\\CodeKata\\CodeKata.BusinessIntities\\CodeKata.BusinessEnt.csproj": {
+                "projectPath": "C:\\GitHub\\CodeKata\\CodeKata.BusinessIntities\\CodeKata.BusinessEnt.csproj"
+              },
+              "C:\\GitHub\\CodeKata\\CodeKata.Providers\\CodeKata.Prov.csproj": {
+                "projectPath": "C:\\GitHub\\CodeKata\\CodeKata.Providers\\CodeKata.Prov.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\GitHub\\CodeKata\\CodeKata.Providers\\CodeKata.Prov.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\CodeKata\\CodeKata.Providers\\CodeKata.Prov.csproj",
+        "projectName": "CodeKata.Prov",
+        "projectPath": "C:\\GitHub\\CodeKata\\CodeKata.Providers\\CodeKata.Prov.csproj",
+        "packagesPath": "C:\\Users\\allenj\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\CodeKata\\CodeKata.Providers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\allenj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\GitHub\\CodeKata\\CodeKataApp\\CodeKata.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\CodeKata\\CodeKataApp\\CodeKata.Application.csproj",
+        "projectName": "CodeKata.Application",
+        "projectPath": "C:\\GitHub\\CodeKata\\CodeKataApp\\CodeKata.Application.csproj",
+        "packagesPath": "C:\\Users\\allenj\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\CodeKata\\CodeKataApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\allenj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\GitHub\\CodeKata\\CodeKata.BusinessIntities\\CodeKata.BusinessEnt.csproj": {
+                "projectPath": "C:\\GitHub\\CodeKata\\CodeKata.BusinessIntities\\CodeKata.BusinessEnt.csproj"
+              },
+              "C:\\GitHub\\CodeKata\\CodeKata.BusinessService\\CodeKata.BusinessImp.csproj": {
+                "projectPath": "C:\\GitHub\\CodeKata\\CodeKata.BusinessService\\CodeKata.BusinessImp.csproj"
+              },
+              "C:\\GitHub\\CodeKata\\CodeKata.Providers\\CodeKata.Prov.csproj": {
+                "projectPath": "C:\\GitHub\\CodeKata\\CodeKata.Providers\\CodeKata.Prov.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
